@@ -18,23 +18,18 @@ from list_market_book import get_odds, get_odds_async
 from login import create_token_betfair, delete_token, get_or_create_token
 
 
-cred = credentials.Certificate('')
-firebase_admin.initialize_app(cred)
-
-db = firestore.client()
-token = ''
-
-
 def main():
-    global token, db
+    cred = credentials.Certificate('')
+    firebase_admin.initialize_app(cred)
+
+    db = firestore.client()
 
     try:
-        if token == "":
-            token = get_or_create_token(db)
+        token = get_or_create_token(db)
 
         main_tasks = []
         for i in range(8):
-            main_tasks.append(get_odds(db, i))
+            main_tasks.append(get_odds(db, i, token))
 
         [task.result() for task in main_tasks]
 
@@ -46,8 +41,7 @@ def main():
 
 
 @unsync
-def get_odds(db, day_to_sum):
-    global token
+def get_odds(db, day_to_sum, token):
     password = urllib.parse.quote_plus(os.environ.get('MONGO_PASSWORD'))
     mongo_client = MongoClient(
         "mongodb+srv://joao:%s@maincluster-he8du.gcp.mongodb.net/test?retryWrites=true&w=majority" %  password
@@ -69,7 +63,6 @@ def get_odds(db, day_to_sum):
         print(events_ids)
     if "INVALID_SESSION_INFORMATION" in events_ids:
         delete_token(db)
-        token = get_or_create_token(db)
 
     if len(events_ids) > 0:
         matches = get_markets(url, header, events_ids)
@@ -81,7 +74,6 @@ def get_odds(db, day_to_sum):
             [odd_task.result() for odd_task in odds_tasks]
     else:
         print(events_ids)
-        token = get_or_create_token(db)
 
     print("Terminada iteração {}".format(day_to_sum))
 
