@@ -1,0 +1,1680 @@
+{
+   "jsonrpc": "2.0",
+   "result": [
+      {
+         "marketId": "1.162028062",
+         "marketName": "Match Odds",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.794816,
+         "runners": [
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "84649"
+               }
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "7418999"
+               }
+            },
+            {
+               "selectionId": 58805,
+               "runnerName": "The Draw",
+               "handicap": 0.0,
+               "sortPriority": 3,
+               "metadata": {
+                  "runnerId": "58805"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028060",
+         "marketName": "Both teams to Score?",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 30246,
+               "runnerName": "Yes",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "30246"
+               }
+            },
+            {
+               "selectionId": 110503,
+               "runnerName": "No",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "110503"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028065",
+         "marketName": "Over/Under 0.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 5851482,
+               "runnerName": "Under 0.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "5851482"
+               }
+            },
+            {
+               "selectionId": 5851483,
+               "runnerName": "Over 0.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "5851483"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028069",
+         "marketName": "Half Time",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "84649"
+               }
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "7418999"
+               }
+            },
+            {
+               "selectionId": 58805,
+               "runnerName": "The Draw",
+               "handicap": 0.0,
+               "sortPriority": 3,
+               "metadata": {
+                  "runnerId": "58805"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028070",
+         "marketName": "Over/Under 5.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1485567,
+               "runnerName": "Under 5.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1485567"
+               }
+            },
+            {
+               "selectionId": 1485568,
+               "runnerName": "Over 5.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "1485568"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028068",
+         "marketName": "Over/Under 6.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 2542448,
+               "runnerName": "Under 6.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "2542448"
+               }
+            },
+            {
+               "selectionId": 2542449,
+               "runnerName": "Over 6.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "2542449"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028073",
+         "marketName": "Over/Under 4.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1222347,
+               "runnerName": "Under 4.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1222347"
+               }
+            },
+            {
+               "selectionId": 1222346,
+               "runnerName": "Over 4.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "1222346"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028142",
+         "marketName": "Goal Lines",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 0.5,
+               "sortPriority": 1
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 0.5,
+               "sortPriority": 2
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 0.75,
+               "sortPriority": 3
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 0.75,
+               "sortPriority": 4
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 1.0,
+               "sortPriority": 5
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 1.0,
+               "sortPriority": 6
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 1.25,
+               "sortPriority": 7
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 1.25,
+               "sortPriority": 8
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 1.5,
+               "sortPriority": 9
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 1.5,
+               "sortPriority": 10
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 1.75,
+               "sortPriority": 11
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 1.75,
+               "sortPriority": 12
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 2.0,
+               "sortPriority": 13
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 2.0,
+               "sortPriority": 14
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 2.25,
+               "sortPriority": 15
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 2.25,
+               "sortPriority": 16
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 2.5,
+               "sortPriority": 17
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 2.5,
+               "sortPriority": 18
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 2.75,
+               "sortPriority": 19
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 2.75,
+               "sortPriority": 20
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 3.0,
+               "sortPriority": 21
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 3.0,
+               "sortPriority": 22
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 3.25,
+               "sortPriority": 23
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 3.25,
+               "sortPriority": 24
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 3.5,
+               "sortPriority": 25
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 3.5,
+               "sortPriority": 26
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 3.75,
+               "sortPriority": 27
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 3.75,
+               "sortPriority": 28
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 4.0,
+               "sortPriority": 29
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 4.0,
+               "sortPriority": 30
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 4.25,
+               "sortPriority": 31
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 4.25,
+               "sortPriority": 32
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 4.5,
+               "sortPriority": 33
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 4.5,
+               "sortPriority": 34
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 4.75,
+               "sortPriority": 35
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 4.75,
+               "sortPriority": 36
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 5.0,
+               "sortPriority": 37
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 5.0,
+               "sortPriority": 38
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 5.25,
+               "sortPriority": 39
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 5.25,
+               "sortPriority": 40
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 5.5,
+               "sortPriority": 41
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 5.5,
+               "sortPriority": 42
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 5.75,
+               "sortPriority": 43
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 5.75,
+               "sortPriority": 44
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 6.0,
+               "sortPriority": 45
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 6.0,
+               "sortPriority": 46
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 6.25,
+               "sortPriority": 47
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 6.25,
+               "sortPriority": 48
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 6.5,
+               "sortPriority": 49
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 6.5,
+               "sortPriority": 50
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 6.75,
+               "sortPriority": 51
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 6.75,
+               "sortPriority": 52
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 7.0,
+               "sortPriority": 53
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 7.0,
+               "sortPriority": 54
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 7.25,
+               "sortPriority": 55
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 7.25,
+               "sortPriority": 56
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 7.5,
+               "sortPriority": 57
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 7.5,
+               "sortPriority": 58
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 7.75,
+               "sortPriority": 59
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 7.75,
+               "sortPriority": 60
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 8.0,
+               "sortPriority": 61
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 8.0,
+               "sortPriority": 62
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 8.25,
+               "sortPriority": 63
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 8.25,
+               "sortPriority": 64
+            },
+            {
+               "selectionId": 7044483,
+               "runnerName": "Under",
+               "handicap": 8.5,
+               "sortPriority": 65,
+               "metadata": {
+                  "runnerId": "7044483"
+               }
+            },
+            {
+               "selectionId": 7044482,
+               "runnerName": "Over",
+               "handicap": 8.5,
+               "sortPriority": 66,
+               "metadata": {
+                  "runnerId": "7044482"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028074",
+         "marketName": "Half Time Score",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1,
+               "runnerName": "0 - 0",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1"
+               }
+            },
+            {
+               "selectionId": 3,
+               "runnerName": "1 - 1",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "3"
+               }
+            },
+            {
+               "selectionId": 7,
+               "runnerName": "2 - 2",
+               "handicap": 0.0,
+               "sortPriority": 3,
+               "metadata": {
+                  "runnerId": "7"
+               }
+            },
+            {
+               "selectionId": 2,
+               "runnerName": "1 - 0",
+               "handicap": 0.0,
+               "sortPriority": 4,
+               "metadata": {
+                  "runnerId": "2"
+               }
+            },
+            {
+               "selectionId": 5,
+               "runnerName": "2 - 0",
+               "handicap": 0.0,
+               "sortPriority": 5,
+               "metadata": {
+                  "runnerId": "5"
+               }
+            },
+            {
+               "selectionId": 6,
+               "runnerName": "2 - 1",
+               "handicap": 0.0,
+               "sortPriority": 6,
+               "metadata": {
+                  "runnerId": "6"
+               }
+            },
+            {
+               "selectionId": 4,
+               "runnerName": "0 - 1",
+               "handicap": 0.0,
+               "sortPriority": 7,
+               "metadata": {
+                  "runnerId": "4"
+               }
+            },
+            {
+               "selectionId": 9,
+               "runnerName": "0 - 2",
+               "handicap": 0.0,
+               "sortPriority": 8,
+               "metadata": {
+                  "runnerId": "9"
+               }
+            },
+            {
+               "selectionId": 8,
+               "runnerName": "1 - 2",
+               "handicap": 0.0,
+               "sortPriority": 9,
+               "metadata": {
+                  "runnerId": "8"
+               }
+            },
+            {
+               "selectionId": 4506345,
+               "runnerName": "Any Unquoted ",
+               "handicap": 0.0,
+               "sortPriority": 10,
+               "metadata": {
+                  "runnerId": "4506345"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028075",
+         "marketName": "Half Time/Full Time",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 476484,
+               "runnerName": "Mgladbach/Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "476484"
+               }
+            },
+            {
+               "selectionId": 476485,
+               "runnerName": "Mgladbach/Draw",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "476485"
+               }
+            },
+            {
+               "selectionId": 25867849,
+               "runnerName": "Mgladbach/Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 3,
+               "metadata": {
+                  "runnerId": "25867849"
+               }
+            },
+            {
+               "selectionId": 476487,
+               "runnerName": "Draw/Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 4,
+               "metadata": {
+                  "runnerId": "476487"
+               }
+            },
+            {
+               "selectionId": 3710152,
+               "runnerName": "Draw/Draw",
+               "handicap": 0.0,
+               "sortPriority": 5,
+               "metadata": {
+                  "runnerId": "3710152"
+               }
+            },
+            {
+               "selectionId": 7440672,
+               "runnerName": "Draw/Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 6,
+               "metadata": {
+                  "runnerId": "7440672"
+               }
+            },
+            {
+               "selectionId": 25867850,
+               "runnerName": "Wolfsberger AC/Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 7,
+               "metadata": {
+                  "runnerId": "25867850"
+               }
+            },
+            {
+               "selectionId": 7440676,
+               "runnerName": "Wolfsberger AC/Draw",
+               "handicap": 0.0,
+               "sortPriority": 8,
+               "metadata": {
+                  "runnerId": "7440676"
+               }
+            },
+            {
+               "selectionId": 7440673,
+               "runnerName": "Wolfsberger AC/Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 9,
+               "metadata": {
+                  "runnerId": "7440673"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028071",
+         "marketName": "Correct Score",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1,
+               "runnerName": "0 - 0",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1"
+               }
+            },
+            {
+               "selectionId": 4,
+               "runnerName": "0 - 1",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "4"
+               }
+            },
+            {
+               "selectionId": 9,
+               "runnerName": "0 - 2",
+               "handicap": 0.0,
+               "sortPriority": 3,
+               "metadata": {
+                  "runnerId": "9"
+               }
+            },
+            {
+               "selectionId": 16,
+               "runnerName": "0 - 3",
+               "handicap": 0.0,
+               "sortPriority": 4,
+               "metadata": {
+                  "runnerId": "16"
+               }
+            },
+            {
+               "selectionId": 2,
+               "runnerName": "1 - 0",
+               "handicap": 0.0,
+               "sortPriority": 5,
+               "metadata": {
+                  "runnerId": "2"
+               }
+            },
+            {
+               "selectionId": 3,
+               "runnerName": "1 - 1",
+               "handicap": 0.0,
+               "sortPriority": 6,
+               "metadata": {
+                  "runnerId": "3"
+               }
+            },
+            {
+               "selectionId": 8,
+               "runnerName": "1 - 2",
+               "handicap": 0.0,
+               "sortPriority": 7,
+               "metadata": {
+                  "runnerId": "8"
+               }
+            },
+            {
+               "selectionId": 15,
+               "runnerName": "1 - 3",
+               "handicap": 0.0,
+               "sortPriority": 8,
+               "metadata": {
+                  "runnerId": "15"
+               }
+            },
+            {
+               "selectionId": 5,
+               "runnerName": "2 - 0",
+               "handicap": 0.0,
+               "sortPriority": 9,
+               "metadata": {
+                  "runnerId": "5"
+               }
+            },
+            {
+               "selectionId": 6,
+               "runnerName": "2 - 1",
+               "handicap": 0.0,
+               "sortPriority": 10,
+               "metadata": {
+                  "runnerId": "6"
+               }
+            },
+            {
+               "selectionId": 7,
+               "runnerName": "2 - 2",
+               "handicap": 0.0,
+               "sortPriority": 11,
+               "metadata": {
+                  "runnerId": "7"
+               }
+            },
+            {
+               "selectionId": 14,
+               "runnerName": "2 - 3",
+               "handicap": 0.0,
+               "sortPriority": 12,
+               "metadata": {
+                  "runnerId": "14"
+               }
+            },
+            {
+               "selectionId": 10,
+               "runnerName": "3 - 0",
+               "handicap": 0.0,
+               "sortPriority": 13,
+               "metadata": {
+                  "runnerId": "10"
+               }
+            },
+            {
+               "selectionId": 11,
+               "runnerName": "3 - 1",
+               "handicap": 0.0,
+               "sortPriority": 14,
+               "metadata": {
+                  "runnerId": "11"
+               }
+            },
+            {
+               "selectionId": 12,
+               "runnerName": "3 - 2",
+               "handicap": 0.0,
+               "sortPriority": 15,
+               "metadata": {
+                  "runnerId": "12"
+               }
+            },
+            {
+               "selectionId": 13,
+               "runnerName": "3 - 3",
+               "handicap": 0.0,
+               "sortPriority": 16,
+               "metadata": {
+                  "runnerId": "13"
+               }
+            },
+            {
+               "selectionId": 9063254,
+               "runnerName": "Any Other Home Win",
+               "handicap": 0.0,
+               "sortPriority": 17,
+               "metadata": {
+                  "runnerId": "9063254"
+               }
+            },
+            {
+               "selectionId": 9063255,
+               "runnerName": "Any Other Away Win",
+               "handicap": 0.0,
+               "sortPriority": 18,
+               "metadata": {
+                  "runnerId": "9063255"
+               }
+            },
+            {
+               "selectionId": 9063256,
+               "runnerName": "Any Other Draw",
+               "handicap": 0.0,
+               "sortPriority": 19,
+               "metadata": {
+                  "runnerId": "9063256"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028072",
+         "marketName": "Over/Under 2.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 47972,
+               "runnerName": "Under 2.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "47972"
+               }
+            },
+            {
+               "selectionId": 47973,
+               "runnerName": "Over 2.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "47973"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028076",
+         "marketName": "Over/Under 1.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1221385,
+               "runnerName": "Under 1.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1221385"
+               }
+            },
+            {
+               "selectionId": 1221386,
+               "runnerName": "Over 1.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "1221386"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028082",
+         "marketName": "Asian Handicap",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -4.0,
+               "sortPriority": 1
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 4.0,
+               "sortPriority": 2
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -3.75,
+               "sortPriority": 3
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 3.75,
+               "sortPriority": 4
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -3.5,
+               "sortPriority": 5
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 3.5,
+               "sortPriority": 6
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -3.25,
+               "sortPriority": 7
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 3.25,
+               "sortPriority": 8
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -3.0,
+               "sortPriority": 9
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 3.0,
+               "sortPriority": 10
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -2.75,
+               "sortPriority": 11
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 2.75,
+               "sortPriority": 12
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -2.5,
+               "sortPriority": 13
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 2.5,
+               "sortPriority": 14
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -2.25,
+               "sortPriority": 15
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 2.25,
+               "sortPriority": 16
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -2.0,
+               "sortPriority": 17
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 2.0,
+               "sortPriority": 18
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -1.75,
+               "sortPriority": 19
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 1.75,
+               "sortPriority": 20
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -1.5,
+               "sortPriority": 21
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 1.5,
+               "sortPriority": 22
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -1.25,
+               "sortPriority": 23
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 1.25,
+               "sortPriority": 24
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -1.0,
+               "sortPriority": 25
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 1.0,
+               "sortPriority": 26
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -0.75,
+               "sortPriority": 27
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.75,
+               "sortPriority": 28
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -0.5,
+               "sortPriority": 29
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.5,
+               "sortPriority": 30
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": -0.25,
+               "sortPriority": 31
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.25,
+               "sortPriority": 32
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.0,
+               "sortPriority": 33
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": 0.0,
+               "sortPriority": 34
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.25,
+               "sortPriority": 35
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -0.25,
+               "sortPriority": 36
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.5,
+               "sortPriority": 37
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -0.5,
+               "sortPriority": 38
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 0.75,
+               "sortPriority": 39
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -0.75,
+               "sortPriority": 40
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 1.0,
+               "sortPriority": 41
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -1.0,
+               "sortPriority": 42
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 1.25,
+               "sortPriority": 43
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -1.25,
+               "sortPriority": 44
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 1.5,
+               "sortPriority": 45
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -1.5,
+               "sortPriority": 46
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 1.75,
+               "sortPriority": 47
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -1.75,
+               "sortPriority": 48
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 2.0,
+               "sortPriority": 49
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -2.0,
+               "sortPriority": 50
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 2.25,
+               "sortPriority": 51
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -2.25,
+               "sortPriority": 52
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 2.5,
+               "sortPriority": 53
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -2.5,
+               "sortPriority": 54
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 2.75,
+               "sortPriority": 55
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -2.75,
+               "sortPriority": 56
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 3.0,
+               "sortPriority": 57
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -3.0,
+               "sortPriority": 58
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 3.25,
+               "sortPriority": 59
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -3.25,
+               "sortPriority": 60
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 3.5,
+               "sortPriority": 61
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -3.5,
+               "sortPriority": 62
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 3.75,
+               "sortPriority": 63
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -3.75,
+               "sortPriority": 64
+            },
+            {
+               "selectionId": 84649,
+               "runnerName": "Mgladbach",
+               "handicap": 4.0,
+               "sortPriority": 65,
+               "metadata": {
+                  "runnerId": "84649"
+               }
+            },
+            {
+               "selectionId": 7418999,
+               "runnerName": "Wolfsberger AC",
+               "handicap": -4.0,
+               "sortPriority": 66,
+               "metadata": {
+                  "runnerId": "7418999"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      },
+      {
+         "marketId": "1.162028081",
+         "marketName": "Over/Under 3.5 Goals",
+         "marketStartTime": "2019-09-19T20:00:00.000Z",
+         "totalMatched": 0.0,
+         "runners": [
+            {
+               "selectionId": 1222344,
+               "runnerName": "Under 3.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 1,
+               "metadata": {
+                  "runnerId": "1222344"
+               }
+            },
+            {
+               "selectionId": 1222345,
+               "runnerName": "Over 3.5 Goals",
+               "handicap": 0.0,
+               "sortPriority": 2,
+               "metadata": {
+                  "runnerId": "1222345"
+               }
+            }
+         ],
+         "eventType": {
+            "id": "1",
+            "name": "Soccer"
+         },
+         "competition": {
+            "id": "2005",
+            "name": "UEFA Europa League"
+         },
+         "event": {
+            "id": "29445210",
+            "name": "Mgladbach v Wolfsberger AC",
+            "timezone": "GMT",
+            "openDate": "2019-09-19T19:00:00.000Z"
+         }
+      }
+   ],
+   "id": 1
+}

@@ -1,0 +1,1 @@
+worker: python betfair_mongo.py
