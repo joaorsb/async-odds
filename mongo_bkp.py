@@ -43,7 +43,11 @@ async def process_all_items(main_db_collection, bkp_db_collection):
         if arrow.get(document['markets']['marketStartTime']) < arrow.utcnow():
             saved_match = await bkp_db_collection.update_one({
                 'event_id': document['event_id']},
-                {'$set': document},
+                {'$set': {
+                    'event_id': document['event_id'],
+                    'markets': document['markets']
+                }
+                },
                 upsert=True
             )
             print("Salvo: {event_name} / {date}"

@@ -41,12 +41,11 @@ def main():
 
 
 @unsync
-def get_odds(db, day_to_sum, token):
+def get_odds(db, day_to_sum: int, token: int):
     password = urllib.parse.quote_plus(os.environ.get('MONGO_PASSWORD'))
     mongo_client = MongoClient(
         "mongodb+srv://joao:%s@maincluster-he8du.gcp.mongodb.net/test?retryWrites=true&w=majority" %  password
     )
-
     mongo_db = mongo_client.betfair_odds
     collection = mongo_db.bf_events
 
@@ -81,32 +80,37 @@ def get_odds(db, day_to_sum, token):
 @unsync
 async def retrieve_matches_and_save(collection, match, url, header):
     async with ClientSession() as session:
-        if 'over_25' in match:
-            over_25 = await get_odds_async(session, url, header, match['over_25']['marketId'])
+        try:
+            if 'over_25' in match:
+                over_25 = await get_odds_async(session, url, header, match['over_25']['marketId'])
 
-            for price in over_25:
-                if price['selectionId'] == match['over_25']['under']['selectionId']:
-                    match['over_25']['under']['odds'] = price['ex']
-                else:
-                    match['over_25']['over']['odds'] = price['ex']
+                if over_25 is not None:
+                    for price in over_25:
+                        if price['selectionId'] == match['over_25']['under']['selectionId']:
+                            match['over_25']['under']['odds'] = price['ex']
+                        else:
+                            match['over_25']['over']['odds'] = price['ex']
 
-        match_odds = await get_odds_async(session, url, header, match['marketId'])
-        for price in match_odds:
-            if price['selectionId'] == match['homeTeam']['selectionId']:
-                match['homeTeam']['odds'] = price['ex']
-            elif price['selectionId'] == match['awayTeam']['selectionId']:
-                match['awayTeam']['odds'] = price['ex']
+            match_odds = await get_odds_async(session, url, header, match['marketId'])
+            if match_odds is not None:
+                for price in match_odds:
+                    if price['selectionId'] == match['homeTeam']['selectionId']:
+                        match['homeTeam']['odds'] = price['ex']
+                    elif price['selectionId'] == match['awayTeam']['selectionId']:
+                        match['awayTeam']['odds'] = price['ex']
+                    else:
+                        match['draw']['odds'] = price['ex']
+
+                if len(match['homeTeam']['odds']['availableToLay']) > 0 \
+                        or len(match['awayTeam']['odds']['availableToLay']) > 0 or \
+                        len(match['draw']['odds']['availableToLay']) > 0:
+                    event = {'event_id': match['eventId'], 'markets': match}
+                    match['lastSaved'] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%TZ")
+                    collection.update_one({'event_id': event['event_id']}, {'$set': event}, upsert=True)
             else:
-                match['draw']['odds'] = price['ex']
-
-        if len(match['homeTeam']['odds']['availableToLay']) > 0 \
-                or len(match['awayTeam']['odds']['availableToLay']) > 0 or \
-                len(match['draw']['odds']['availableToLay']) > 0:
-            event = {'event_id': match['eventId'], 'markets': match}
-            match['lastSaved'] = datetime.datetime.utcnow().strftime("%Y-%m-%dT%TZ")
-            collection.update_one({'event_id': event['event_id']}, {'$set': event}, upsert=True)
-        else:
-            print("Sem odd para registrar em: {}".format(match['eventName']))
+                print("Sem odd para registrar em: {}".format(match['eventName']))
+        except TypeError:
+            print("Erro para consultar odds: {}".format(match['eventName']))
 
 
 if __name__ == "__main__":

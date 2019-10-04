@@ -28,6 +28,8 @@ async def get_odds_async(session, url, header, market_id):
                 }, "id": 1}'
     async with session.post(url, data=jsonrpc_req, headers=header) as response:
         data = await response.text()
-        odds_response = json.loads(data)['result'][0]
-
-    return odds_response['runners']
+        try:
+            odds_response = json.loads(data)['result'][0]
+            return odds_response['runners']
+        except KeyError:
+            print(json.loads(data))
